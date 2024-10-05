@@ -1,0 +1,64 @@
+/* Estilo global */
+body {
+    background-color: #090909;
+    color: white;
+    font-family: 'Hiragino Mincho Pro', serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para links */
+a {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: inherit;
+}
+
+/* Estilo para títulos */
+h3 {
+    color: #ff0000;
+    text-shadow: 2px 2px 4px #ff0000;
+    animation: blink 2s infinite;
+    margin: 10px 0;
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
+
+/* Estilo para imagens */
+img {
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.6);
+}
+
+/* Estilo para informações destacadas */
+.pontosDestaque {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+/* Estilo para fonte do relato */
+.relato {
+    font-family: 'Courier New', monospace;
+    font-size: 16px;
+    color: #ff0000;
+    text-shadow: 1px 1px 2px #ff0000, -1px -1px 2px #ff0000;
+    margin: 10px 0;
+}

@@ -1,0 +1,1 @@
+desenharCasosCards('container-casos', casosSobrenaturais);
